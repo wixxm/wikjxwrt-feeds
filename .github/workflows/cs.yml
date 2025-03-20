@@ -67,6 +67,11 @@ jobs:
         run: |
           commit_message="$RANDOM_SYMBOL Sync - $TIMESTAMP"
           echo "📝 Committing changes with message: '$commit_message'"
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "✅ No changes to commit. Skipping commit and push."
+            exit 0
+          fi
+
           git commit -m "$commit_message"
 
           echo "🚀 Pushing changes to GitHub..."
