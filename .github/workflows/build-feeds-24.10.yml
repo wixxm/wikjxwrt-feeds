@@ -113,7 +113,7 @@ jobs:
           tag: ${{ matrix.tag }}
           replacesArtifacts: true
           token: ${{ secrets.OPENWRT_WORKFLOW_TOKEN }}
-          artifacts: /tmp/openwrt_lite/packages-lite-${{ matrix.arch }}.tar.xz
+          artifacts: /tmp/openwrt_lite/WikjxWrt-24.10-${{ matrix.arch }}.tar.xz
 
   push:
     needs: build
@@ -124,24 +124,24 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: opkg-repo
+          ref: opkg
       
       - name: Download packages
         run: |
           echo "latest_release=$(TZ='Asia/Hong_Kong' date +'%Y%m%d')" >> $GITHUB_ENV
-          git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch openwrt_lite/23.05/**/*.ipk' --prune-empty --tag-name-filter cat HEAD
-          curl -LO https://github.com/${{ github.repository }}/releases/download/openwrt-23.05/packages-lite-x86_64.tar.xz
-          curl -LO https://github.com/${{ github.repository }}/releases/download/openwrt-23.05/packages-lite-aarch64_generic.tar.xz
-          rm -rf openwrt_lite/23.05
-          mkdir -p openwrt_lite/23.05
-          for file in packages-lite-*.tar.xz; do tar -xf "$file" -C openwrt_lite/23.05; done
-          rm -f packages-lite-*.tar.xz
+          git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch wikjxwrt/24.10/**/*.ipk' --prune-empty --tag-name-filter cat HEAD
+          curl -LO https://github.com/${{ github.repository }}/releases/download/WikjxWrt-24.10/WikjxWrt-24.10-x86_64.tar.xz
+          rm -rf wikjxwrt/24.10
+          mkdir -p wikjxwrt/24.10
+          tar -xf WikjxWrt-24.10-x86_64.tar.xz -C wikjxwrt/24.10
+          rm -f WikjxWrt-24.10-x86_64.tar.xz
 
       - name: Git push
         continue-on-error: true
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          git add openwrt_lite/23.05/*
-          git commit -sm "[${{env.latest_release}}] Update packages lite-23.05"
+          timestamp=$(date +"%Y-%m-%d %H:%M:%S")
+          git add wikjxwrt/24.10/*
+          git commit -sm "🏅 UP packages-24.10 - $timestamp"
           git push --force
