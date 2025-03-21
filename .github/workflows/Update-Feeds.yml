@@ -42,6 +42,8 @@ jobs:
           TARGET_DIR="/opt/github/wikjxwrt-packages"
           if [ -d "$TARGET_DIR" ]; then
             rsync -av --exclude='.git' "$TARGET_DIR/" .
+            echo "📂 Generating packages.txt..."
+            ls -d */ | xargs -n 1 basename | paste -sd ' ' - > packages.txt
           else
             echo "⚠️ TARGET_DIR 不存在，跳过同步"
           fi
