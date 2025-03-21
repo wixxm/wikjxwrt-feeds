@@ -89,7 +89,7 @@ jobs:
       - name: Build packages
         uses: pmkol/openwrt-gh-action-sdk@lite
         env:
-          ARCH: ${{ matrix.arch }}-${{ matrix.tag }}
+          ARCH: x86-64-openwrt-24.10
           FEEDNAME: packages_lite
           INDEX: 1
           KEY_BUILD: ${{ secrets.OPENWRT_PRIVATE_KEY }}
