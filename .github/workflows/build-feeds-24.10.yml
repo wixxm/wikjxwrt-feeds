@@ -81,10 +81,10 @@ jobs:
           sudo df -Th
           echo -e "PACKAGES: ${{ env.packages_list }}"
 
-      - name: Hack packages
-        run: |
-          sed -i 's/$(BPF_DEPENDS)//g' dae/Makefile
-          sed -i 's/$(BPF_DEPENDS)//g' daed/Makefile
+#      - name: Hack packages
+#        run: |
+#         sed -i 's/$(BPF_DEPENDS)//g' dae/Makefile
+#         sed -i 's/$(BPF_DEPENDS)//g' daed/Makefile
 
       - name: Build packages
         uses: pmkol/openwrt-gh-action-sdk@lite
