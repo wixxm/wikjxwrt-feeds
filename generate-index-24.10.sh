@@ -17,7 +17,7 @@ cd "$target_dir"
 
 current_dir=$(basename "$PWD")
 parent_dir=$(basename "$(dirname "$PWD")")
-title="<a href=\"https://openwrt-lite.pages.dev/\">&#x1F4C2;</a>/${parent_dir}/23.05/${current_dir}/"
+title="<a href=\"https://wixxm.github.io/wikjxwrt/\">&#x1F4C2;</a>/${parent_dir}/23.05/${current_dir}/"
 
 cat <<EOF > index.html
 <!DOCTYPE html>
