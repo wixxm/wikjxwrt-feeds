@@ -66,11 +66,11 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
-          ref: lite-23.05
+          ref: main
 
       - name: Fetch packages
         run: |
-          feeds_list=$(curl -s "https://raw.githubusercontent.com/${{ github.repository }}/lite-23.05/packages.txt")
+          feeds_list=$(curl -s "https://raw.githubusercontent.com/${{ github.repository }}/main/packages.txt")
           echo "packages_list=$feeds_list" >> $GITHUB_ENV
 
       - name: Show build info
@@ -101,8 +101,8 @@ jobs:
         run: |
           mkdir -p /tmp/openwrt_lite/${{ matrix.arch }}/
           mv bin/packages/${{ matrix.arch }}/packages_lite/* /tmp/openwrt_lite/${{ matrix.arch }}
-          curl -sO https://raw.githubusercontent.com/${{ github.repository }}/main/openwrt-23.05/generate-index-23.05.sh
-          bash generate-index-23.05.sh /tmp/openwrt_lite/${{ matrix.arch }}
+          curl -sO https://raw.githubusercontent.com/${{ github.repository }}/config/generate-index-24.10.sh
+          bash generate-index-24.10.sh /tmp/openwrt_lite/${{ matrix.arch }}
           tar -cJvf /tmp/openwrt_lite/packages-lite-${{ matrix.arch }}.tar.xz -C /tmp/openwrt_lite ${{ matrix.arch }}
 
       - name: Create release
