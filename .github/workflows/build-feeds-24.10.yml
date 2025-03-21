@@ -1,10 +1,10 @@
-name: Build OpenWrt Feeds(lite-23.05)
+name: Build OpenWrt Feeds
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - lite-23.05
+      - main
     paths-ignore:
       - .github/**
 
