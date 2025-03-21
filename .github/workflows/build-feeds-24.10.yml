@@ -16,10 +16,9 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - aarch64_generic
           - x86_64
         tag:
-          - openwrt-23.05
+          - WikjxWrt-24.10
 
     steps:
       - name: Free disk space
