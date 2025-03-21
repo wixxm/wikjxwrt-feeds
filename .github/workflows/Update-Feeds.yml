@@ -15,12 +15,12 @@ jobs:
         with:
           fetch-depth: 0  # 确保获取完整历史记录
 
-      - name: 配置 Git 用户信息
+      - name: Configure Git User
         run: |
           git config --global user.name "wixxm"
           git config --global user.email "419691642@qq.com"
 
-      - name: 🔑 设置 Git 远程 URL（使用 Token 认证）
+      - name: Set Git Remote URL
         run: |
           REPO_URL="https://x-access-token:${{ secrets.OPENWRT_WORKFLOW_TOKEN }}@github.com/wixxm/wikjxwrt-feeds.git"
           git remote set-url origin "$REPO_URL"
@@ -32,12 +32,12 @@ jobs:
           bash wikjxwrt-feeds.sh
           rm -f wikjxwrt-feeds.sh
 
-      - name: 确保 Git 处于正确的分支
+      - name: Ensure Git is on the Correct Branch
         run: |
           git checkout main
           git pull origin main  # 确保获取最新变更
 
-      - name: 复制 `TARGET_DIR` 到 GitHub 工作目录
+      - name: Copy GitHub Workspace
         run: |
           TARGET_DIR="/opt/github/wikjxwrt-packages"
           if [ -d "$TARGET_DIR" ]; then
@@ -46,7 +46,7 @@ jobs:
             echo "⚠️ TARGET_DIR 不存在，跳过同步"
           fi
 
-      - name: 确保 Git 有变更
+      - name: Check for Git Changes
         run: |
           git add .
           if git diff --cached --quiet; then
@@ -54,7 +54,7 @@ jobs:
             exit 0
           fi
 
-      - name: 获取当前时间戳
+      - name: Get Current Timestamp
         run: echo "TIMESTAMP=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d %H:%M:%S")" >> $GITHUB_ENV
 
       - name: 生成随机 Emoji 符号
@@ -63,7 +63,7 @@ jobs:
           random_symbol=${symbols[$RANDOM % ${#symbols[@]}]}
           echo "RANDOM_SYMBOL=$random_symbol" >> $GITHUB_ENV
 
-      - name: 📝 提交并推送更改
+      - name: Commit and Push Changes
         run: |
           commit_message="$RANDOM_SYMBOL Sync - $TIMESTAMP"
           echo "📝 Committing changes with message: '$commit_message'"
