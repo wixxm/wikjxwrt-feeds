@@ -1,9 +1,9 @@
 name: Update Feeds & Git Push
 
 on:
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
   schedule:
-    - cron: "0 2 * * *"  # 每天 UTC 02:00 自动执行
+    - cron: "0 */6 * * *" 
 
 jobs:
   update-feeds:
