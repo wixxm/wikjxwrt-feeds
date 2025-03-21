@@ -87,9 +87,9 @@ jobs:
 #         sed -i 's/$(BPF_DEPENDS)//g' daed/Makefile
 
       - name: Build packages
-        uses: pmkol/openwrt-gh-action-sdk@lite
+        uses: openwrt/gh-action-sdk
         env:
-          ARCH: x86-64-openwrt-24.10
+          ARCH: x86-64-24.10-SNAPSHOT
           FEEDNAME: packages_lite
           INDEX: 1
           KEY_BUILD: ${{ secrets.OPENWRT_PRIVATE_KEY }}
