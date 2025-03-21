@@ -91,7 +91,6 @@ jobs:
         env:
           ARCH: x86-64-openwrt-24.10
           FEEDNAME: packages_lite
-          INDEX: 1
           KEY_BUILD: ${{ secrets.OPENWRT_PRIVATE_KEY }}
           NO_REFRESH_CHECK: true
           NO_SHFMT_CHECK: true
