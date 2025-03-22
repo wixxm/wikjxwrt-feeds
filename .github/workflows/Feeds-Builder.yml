@@ -82,7 +82,7 @@ jobs:
     - name: Upload packages
       run: |
         mkdir -p /tmp/openwrt_lite/${{ matrix.arch }}/
-        mv /wikjx/openwrt/bin/packages/${{ matrix.arch }}/wikjxwrt/* /tmp/openwrt_lite/${{ matrix.arch }}/
+        mv openwrt/bin/packages/${{ matrix.arch }}/wikjxwrt/* /tmp/openwrt_lite/${{ matrix.arch }}/
         curl -sO https://raw.githubusercontent.com/${{ github.repository }}/config/generate-index-24.10.sh
         bash generate-index-24.10.sh /tmp/openwrt_lite/${{ matrix.arch }}
         tar -cJvf /tmp/openwrt_lite/WikjxWrt-package-${{ matrix.arch }}.tar.xz -C /tmp/openwrt_lite ${{ matrix.arch }}
