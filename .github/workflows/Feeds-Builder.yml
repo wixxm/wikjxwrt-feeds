@@ -18,7 +18,15 @@ env:
 
 jobs:
   build:
+    name: Build ${{ matrix.arch }}-${{ matrix.tag }} Packages
     runs-on: ubuntu-20.04
+    strategy:
+      fail-fast: false
+      matrix:
+        arch:
+          - x86_64
+        tag:
+          - WikjxWrt-packages
 
     steps:
     - name: Checkout
