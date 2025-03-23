@@ -82,10 +82,28 @@ jobs:
     - name: Upload packages
       run: |
         mkdir -p /tmp/openwrt_lite/${{ matrix.arch }}/
+        if [ -d "/tmp/openwrt_lite/${{ matrix.arch }}" ]; then
+          echo "目录 /tmp/openwrt_lite/${{ matrix.arch }} 创建成功"
+        else
+          echo "目录创建失败！" >&2
+          exit 1
+        fi
         mv openwrt/bin/packages/${{ matrix.arch }}/wikjxwrt/* /tmp/openwrt_lite/${{ matrix.arch }}/
+        if [ "$(ls -A /tmp/openwrt_lite/${{ matrix.arch }})" ]; then
+          echo "文件已成功移动到 /tmp/openwrt_lite/${{ matrix.arch }}/"
+        else
+          echo "文件移动失败，目标目录为空！" >&2
+          exit 1
+        fi
         curl -sO https://raw.githubusercontent.com/${{ github.repository }}/config/generate-index-24.10.sh
         bash generate-index-24.10.sh /tmp/openwrt_lite/${{ matrix.arch }}
         tar -cJvf /tmp/openwrt_lite/WikjxWrt-package-${{ matrix.arch }}.tar.xz -C /tmp/openwrt_lite ${{ matrix.arch }}
+        if [ -f "/tmp/openwrt_lite/WikjxWrt-package-${{ matrix.arch }}.tar.xz" ]; then
+          echo "tarball 文件生成成功"
+        else
+          echo "tarball 文件生成失败！" >&2
+        exit 1
+        fi
 
     - name: Create release
       uses: ncipollo/release-action@v1.14.0
