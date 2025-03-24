@@ -1,4 +1,4 @@
-name: Feeds Builder -3 
+name: packages Builder
 
 on:
   repository_dispatch:
