@@ -97,8 +97,8 @@ jobs:
         fi
         curl -sO https://raw.githubusercontent.com/${{ github.repository }}/config/generate-index-24.10.sh
         bash generate-index-24.10.sh /tmp/openwrt_lite/${{ matrix.arch }}
-        tar -cJvf /tmp/openwrt_lite/WikjxWrt-package-${{ matrix.arch }}.tar.xz -C /tmp/openwrt_lite ${{ matrix.arch }}
-        if [ -f "/tmp/openwrt_lite/WikjxWrt-package-${{ matrix.arch }}.tar.xz" ]; then
+        tar -cJvf /tmp/openwrt_lite/WikjxWrt-packages-${{ matrix.arch }}.tar.xz -C /tmp/openwrt_lite ${{ matrix.arch }}
+        if [ -f "/tmp/openwrt_lite/WikjxWrt-packages-${{ matrix.arch }}.tar.xz" ]; then
           echo "tarball 文件生成成功"
         else
           echo "tarball 文件生成失败！" >&2
