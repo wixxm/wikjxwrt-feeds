@@ -59,7 +59,7 @@ jobs:
       - name: Get Current Timestamp
         run: echo "TIMESTAMP=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d %H:%M:%S")" >> $GITHUB_ENV
 
-      - name: 生成随机 Emoji 符号
+      - name: Emoji
         run: |
           symbols=("🌈" "✨" "🚀" "🔥" "🌟" "⚡" "🎉" "🌻" "🔧" "💡")
           random_symbol=${symbols[$RANDOM % ${#symbols[@]}]}
