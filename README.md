@@ -26,6 +26,9 @@
 ```bash
  sed -i '$a src-git wikjxwrt https://github.com/wixxm/wikjxwrt-packages' feeds.conf.default
 ```
+#### 🌈 在线插件源 🌈
+ src/gz wikjxwrt https://wixxm.github.io/wikjxwrt-feeds/WikjxWrt-packages/x86_64
+
 #### 🛸 特别注意 🛸
 *  使用Openwrt23.05.5(快照版除外，其他版本没有测试)官方源码编译luci-app-passwall时，需要把golang切换为最新版，否则会出现一些插件编译失败。
   ```shell
