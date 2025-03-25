@@ -588,8 +588,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 31979520
 Filename: nikki_2025.03.17~e3d4ec24-r1_x86_64.ipk
-Size: 11777891
-SHA256sum: 3265f9a06bb2f95acbf91a92445e08d2dbfe63b9776d4d7d14039d9ca4cc10c9
+Size: 11777879
+SHA256sum: 745321116a10e14ee1fb25b2ecb0870bf3a48d08fd3fda92c3537642e875a788
 Description:  A rule based proxy in Go.
 
 Package: pdnsd-alt
