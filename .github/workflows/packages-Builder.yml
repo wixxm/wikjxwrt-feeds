@@ -1,8 +1,12 @@
 name: packages Builder
 
 on:
-  repository_dispatch:
   workflow_dispatch:
+  push:
+    branches:
+      - lite-23.05
+    paths-ignore:
+      - .github/**  
 
 env:
   REPO_URL: https://github.com/wixxm/OpenWrt-24.10
