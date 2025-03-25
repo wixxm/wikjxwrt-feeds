@@ -17,7 +17,7 @@ cd "$target_dir"
 
 current_dir=$(basename "$PWD")
 parent_dir=$(basename "$(dirname "$PWD")")
-title="<a href=\"https://wixxm.github.io/wikjxwrt/\">&#x1F4C2;</a>/${parent_dir}/23.05/${current_dir}/"
+title="<a href=\"https://op.055553.xyz/\">&#x1F4C2;</a>/WikjxWrt-packages/x86_64/"
 
 cat <<EOF > index.html
 <!DOCTYPE html>
@@ -25,7 +25,7 @@ cat <<EOF > index.html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenWrt Lite Repo</title>
+    <title>WikjxWrt Repo</title>
     <style>
         table { border-collapse: collapse; width: 100%; }
         th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
@@ -71,7 +71,7 @@ cat <<EOF >> index.html
         </tbody>
     </table>
     <footer>
-        <p>&copy; <a href="https://github.com/pmkol/openwrt-lite" target="_blank">OpenWrt-Lite</a> | Licensed under <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" target="_blank">GPL-2.0</a></p>
+        <p>&copy; <a href="https://github.com/wixxm/wikjxwrt" target="_blank">OpenWrt-Lite</a> | Licensed under <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" target="_blank">GPL-2.0</a></p>
     </footer>
 </body>
 </html>
