@@ -7,7 +7,9 @@ on:
       - main
     paths-ignore:
       - .github/**  
-
+  schedule:
+      - cron: "0 */12 * * *"
+      
 env:
   REPO_URL: https://github.com/wixxm/OpenWrt-24.10
   REPO_BRANCH: main
