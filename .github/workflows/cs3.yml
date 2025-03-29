@@ -77,6 +77,6 @@ jobs:
           git commit -m "$commit_message"
 
           echo "🚀 Pushing changes to GitHub..."
-          git push origin main || (echo "❌ Push failed! Trying PAT_TOKEN..." && \
+          git push --force-with-lease origin main || (echo "❌ Push failed! Trying PAT_TOKEN..." && \
             git remote set-url origin "https://x-access-token:${{ secrets.OPENWRT_WORKFLOW_TOKEN }}@github.com/wixxm/wikjxwrt-feeds.git" && \
-            git push origin main) || (echo "❌ Push failed! Check permissions." && exit 1)
+            git push --force-with-lease origin main) || (echo "❌ Push failed! Check permissions." && exit 1)
