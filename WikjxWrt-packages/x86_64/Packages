@@ -445,8 +445,8 @@ URL: https://wiki.metacubex.one
 Architecture: x86_64
 Installed-Size: 32757760
 Filename: nikki_2025.03.20~0f32c054-r1_x86_64.ipk
-Size: 12016315
-SHA256sum: 5b778ab01439a2f80eed14fb2b7883960865508978d79e4bd26ebbdedb061abf
+Size: 12016105
+SHA256sum: 7fd53533925cb8e2ce3084f7fe6d88e90d268be5aa5354cedea30bb23a9d2d9e
 Description:  A rule based proxy in Go.
 
 Package: pdnsd-alt
