@@ -27,8 +27,8 @@ Maintainer: herboy2008 <herboy2008@gmail.com>
 Architecture: x86_64
 Installed-Size: 11069440
 Filename: ddns-go_6.9.1-r1_x86_64.ipk
-Size: 4440229
-SHA256sum: 94800924cdd22643b94f966c3e27f62031fc7d3e9ab9d475ccaf648551e70531
+Size: 4440238
+SHA256sum: a130ce9b24d7e0f95ba9974718de71f49c4ea6921d8792e4463b3d9afe36c42a
 Description:  ddns-go is a automatically obtain your public IPv4 or IPv6 address and resolve it to the corresponding domain name service,
  support Alidns Dnspod Cloudflare Hicloud Callback Baiducloud porkbun GoDaddy Google Domains.
 
@@ -570,8 +570,8 @@ Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: x86_64
 Installed-Size: 19148800
 Filename: mosdns_5.3.3-r4_x86_64.ipk
-Size: 7244621
-SHA256sum: d33dbbda91e5826e01722c354a61d4c66bc2b127d42688e06e11cbf5025abc43
+Size: 7244710
+SHA256sum: 0f0d5607cb4d2de665d224589ea516e4bfe801c0f60466e4ddebe817c9aa029e
 Description:  A plug-in DNS forwarder/splitter
 
 Package: nikki
@@ -588,8 +588,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 32757760
 Filename: nikki_2025.03.20~0f32c054-r1_x86_64.ipk
-Size: 12016372
-SHA256sum: 4ffb8880261334ec4c68686b04c38b823c2716ce2f13106d56947d57b7404b4d
+Size: 12016315
+SHA256sum: 5b778ab01439a2f80eed14fb2b7883960865508978d79e4bd26ebbdedb061abf
 Description:  A rule based proxy in Go.
 
 Package: pdnsd-alt
@@ -625,8 +625,8 @@ Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
 Installed-Size: 6246400
 Filename: v2dat_2022.12.15~47b8ee51-r2_x86_64.ipk
-Size: 2476454
-SHA256sum: abfab5ba698fc85fe3219792ceea28f12654d75a747c41fcb4f3c688c79ddeec
+Size: 2476462
+SHA256sum: 913e73cc5e8b84b63729df612438548677be9d17f9a071959d271ce51f224a66
 Description:  V2ray geo/ip data unpack tools
 
 Package: wrtbwmon
