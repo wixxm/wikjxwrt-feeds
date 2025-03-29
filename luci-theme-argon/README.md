@@ -152,6 +152,6 @@ Made with [contrib.rocks](https://contrib.rocks).
 - [openwrt-package](https://github.com/jerrykuku/openwrt-package): My OpenWrt package
 - [CasaOS](https://github.com/IceWhaleTech/CasaOS): A simple, easy-to-use, elegant open-source Personal Cloud system (My current main project)
 
-## Credits
+## CreditsA
 
 [luci-theme-material](https://github.com/LuttyYang/luci-theme-material/)
