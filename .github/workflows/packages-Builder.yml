@@ -1,14 +1,13 @@
 name: packages Builder
 
 on:
+  repository_dispatch:
   workflow_dispatch:
   push:
     branches:
       - main
     paths-ignore:
       - .github/**  
-  schedule:
-      - cron: "0 */12 * * *"
       
 env:
   REPO_URL: https://github.com/wixxm/OpenWrt-24.10
