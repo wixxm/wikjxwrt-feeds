@@ -7,10 +7,6 @@
 <img src="https://img.shields.io/github/languages/code-size/wixxm/wikjxwrt-packages?color=blueviolet">
 </div>
 
-
-#### 🏅 Github 🏅
- ![kenzo_github_stats](https://github-readme-stats.vercel.app/api?username=wixxm&show_icons=true&theme=merko)
-
 #### 🎉 WikjxWrt-Packages 🎉
 *  适用于openwrt 22.03 及以上的分支
  
@@ -24,7 +20,7 @@
 #### 🌈 使用方式 🌈
 
 ```bash
- sed -i '$a src-git wikjxwrt https://github.com/wixxm/wikjxwrt-packages' feeds.conf.default
+ sed -i '$a src-git wikjxwrt https://github.com/wixxm/wikjxwrt-feeds' feeds.conf.default
 ```
 #### 🌈 在线插件源 🌈
 ```
