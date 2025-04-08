@@ -77,4 +77,5 @@ sync_repo_folder "https://github.com/sirpdboy/luci-app-ddns-go.git" "main" "luci
 sync_repo_folder "https://github.com/gdy666/luci-app-lucky.git" "main" "luci-app-lucky" "luci-app-lucky"
 sync_repo_folder "https://github.com/gdy666/luci-app-lucky.git" "main" "lucky" "lucky"
 sync_repo_folder "https://github.com/wixxm/wikjxwrt-app.git" "main" "luci-app-fileassistant" "luci-app-fileassistant"
+sync_repo_folder "https://github.com/wixxm/wikjxwrt-app.git" "main" "luci-app-ota" "luci-app-ota"
 
