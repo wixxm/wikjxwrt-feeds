@@ -78,4 +78,4 @@ sync_repo_folder "https://github.com/gdy666/luci-app-lucky.git" "main" "luci-app
 sync_repo_folder "https://github.com/gdy666/luci-app-lucky.git" "main" "lucky" "lucky"
 sync_repo_folder "https://github.com/wixxm/wikjxwrt-app.git" "main" "luci-app-fileassistant" "luci-app-fileassistant"
 sync_repo_folder "https://github.com/wixxm/wikjxwrt-app.git" "main" "luci-app-ota" "luci-app-ota"
-
+sync_repo_folder "https://github.com/wixxm/wikjxwrt-app.git" "main" "fw_download_tool" "fw_download_tool"
