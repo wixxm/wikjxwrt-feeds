@@ -70,7 +70,8 @@ do_check() {
     NEW_VERSION=$(basename $FW_URL | sed -E 's/^([a-zA-Z0-9]+-[a-zA-Z0-9]+)-.*/\1/')
 
     RELEASE_TIMESTAMP_STR=$(echo "$OPENWRT_RELEASE" | grep -oE '[0-9]{14}')
-    CURRENT_TIMESTAMP=$(date -d "${RELEASE_TIMESTAMP_STR:0:8} ${RELEASE_TIMESTAMP_STR:8:2}:${RELEASE_TIMESTAMP_STR:10:2}:${RELEASE_TIMESTAMP_STR:12:2}" +%s)
+    DATE_STR="$(echo $RELEASE_TIMESTAMP_STR | sed -E 's/^([0-9]{4})([0-9]{2})([0-9]{2})([0-9]{2})([0-9]{2})([0-9]{2})$/\1-\2-\3 \4:\5:\6/')"
+    CURRENT_TIMESTAMP=$(date -d "$DATE_STR" +%s)
 
     if [ "$CURRENT_TIMESTAMP" -lt "$FW_BUILD_DATE" ]; then
         echo "<h3>Model:&nbsp;&nbsp;<font color=\"green\">$(board_name)</font><br/>Current Version:&nbsp;&nbsp;<font color=\"green\">$PRETTY_NAME</font><br/>Build Time:&nbsp;&nbsp;<font color=\"Orange\">$(date "+%Y-%m-%d %H:%M:%S" -d "@$CURRENT_TIMESTAMP")</font></h3>"
