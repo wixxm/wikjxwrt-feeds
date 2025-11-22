@@ -4,16 +4,16 @@ Depends: libc, libubox20240329, libubus20250102, libuci20250120, libpthread, lib
 Source: feeds/wikjxwrt/open-app-filter
 SourceName: appfilter
 Section: TT Apps
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Architecture: x86_64
 Installed-Size: 102400
 Filename: appfilter_6.1.6-r1_x86_64.ipk
-Size: 32660
-SHA256sum: 79da5b19828f602882dc23e3d91b3f3d8fcaeab5900364a3b89aa23bf238fb46
+Size: 32662
+SHA256sum: 60e5b6c24995fc95cda365f6dab557c2f1a2ed276d637785080de3a0cb5a9eee
 Description:  openappfilter app
 
 Package: ddns-go
-Version: 6.12.5-r13
+Version: 6.13.2-r12
 Depends: libc, ca-bundle
 Source: feeds/wikjxwrt/ddns-go
 SourceName: ddns-go
@@ -21,14 +21,14 @@ License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
 Require-User: ddns-go:ddns-go
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/jeessy2/ddns-go
 Maintainer: herboy2008 <herboy2008@gmail.com>
 Architecture: x86_64
 Installed-Size: 11274240
-Filename: ddns-go_6.12.5-r13_x86_64.ipk
-Size: 4544817
-SHA256sum: a8811dfa7a943b3ffe0dccdb6d3cc44c81207587620420fb0897ff6d03398083
+Filename: ddns-go_6.13.2-r12_x86_64.ipk
+Size: 4545253
+SHA256sum: 06c485e8a9fef40795b29b9eb20a6c5b6d57c3c80715d2b6d08e3f139c0fb3e6
 Description:  ddns-go is a automatically obtain your public IPv4 or IPv6 address and resolve it to the corresponding domain name service,
  support Alidns Dnspod Cloudflare Hicloud Callback Baiducloud porkbun GoDaddy Google Domains.
 
@@ -39,13 +39,13 @@ Source: feeds/wikjxwrt/fw_download_tool
 SourceName: fw_download_tool
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
 Installed-Size: 20480
 Filename: fw_download_tool_1_x86_64.ipk
-Size: 3415
-SHA256sum: 1d82b2e486e06a83774ee8caf92e31122aba6116940856e8f761e970b25eefe7
+Size: 3418
+SHA256sum: f1d0c23c0f28b6f153359bd7245063c66b2f0dd4fc3a9ac349f4f92fab218228
 Description:  Firmware downloader
 
 Package: luci-app-argon-config
@@ -54,30 +54,30 @@ Depends: libc, luci-theme-argon
 Source: feeds/wikjxwrt/luci-app-argon-config
 SourceName: luci-app-argon-config
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
 Filename: luci-app-argon-config_1.0-r20230608_all.ipk
-Size: 4083
-SHA256sum: 8adc2edd9173b3fb40fde4ba2a0f9f87d84dc977028ae9de2f8ea1e4ca782936
+Size: 4080
+SHA256sum: 3d2d8362e716f5e17c4cd7b72c3d40e6b83b476fb34d079122352e1d5615ff7b
 Description:  LuCI app for Argon theme configuration
 
 Package: luci-app-arpbind
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, ip, luci-lua-runtime
 Source: feeds/wikjxwrt/luci-app-arpbind
 SourceName: luci-app-arpbind
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
-Filename: luci-app-arpbind_25.324.45224~bf6d207_all.ipk
-Size: 2842
-SHA256sum: b64e7c526afaeb2619517ffae6997475a061f252e25755eb82795e66ac30fefe
+Filename: luci-app-arpbind_25.325.66099~edb4c3a_all.ipk
+Size: 2851
+SHA256sum: 1b1b026f8df46540398df084bca982ed53c4111f828cf3cd9bc2e62655944368
 Description:  ARP Binding
 
 Package: luci-app-cpu-status
@@ -87,14 +87,14 @@ Source: feeds/wikjxwrt/luci-app-cpu-status
 SourceName: luci-app-cpu-status
 License: MIT
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
 Filename: luci-app-cpu-status_0.5.0-r1-r1_all.ipk
-Size: 3256
-SHA256sum: f2bd6e369b0ed3308f0cbf3e24c29141cab317955258dac9df3c0774209bd24f
+Size: 3259
+SHA256sum: aa18214372d3c3e4d5edcc16ab70eb66b3f26072c293acd5ab9433255b795b69
 Description:  CPU utilization info for the LuCI status page
 
 Package: luci-app-ddns-go
@@ -103,47 +103,47 @@ Depends: libc, ddns-go
 Source: feeds/wikjxwrt/luci-app-ddns-go
 SourceName: luci-app-ddns-go
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 40960
 Filename: luci-app-ddns-go_1.6.4-r20251106_all.ipk
 Size: 8799
-SHA256sum: 3ff278e5cb5250ea070ff28b1ddbd8e6ed062c446b8e4784263ca5bc15202bbf
+SHA256sum: db2b8c88034dce805f1fea96ca8658ab897363ba74140e28030fa5d9e38da329
 Description:  LuCI Support for Dynamic ddns-go Client
 
 Package: luci-app-diskman
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, blkid, e2fsprogs, parted, smartmontools, btrfs-progs, lsblk, luci-lua-runtime
 Source: feeds/wikjxwrt/luci-app-diskman
 SourceName: luci-app-diskman
 License: AGPL-3.0
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 112640
-Filename: luci-app-diskman_25.324.45224~bf6d207_all.ipk
-Size: 21473
-SHA256sum: fde97dacd0d3b0a06543df1c6ac9165cf95318a0d1f67c1b95649bbe66db5a44
+Filename: luci-app-diskman_25.325.66099~edb4c3a_all.ipk
+Size: 21472
+SHA256sum: 0bbe9f58c80920bba91ff84d9eae36d2085733f349bdf3316e0427a3e3e5d061
 Description:  Disk Manager interface for LuCI
 
 Package: luci-app-fileassistant
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-lua-runtime
 Source: feeds/wikjxwrt/luci-app-fileassistant
 SourceName: luci-app-fileassistant
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 40960
-Filename: luci-app-fileassistant_25.324.45224~bf6d207_all.ipk
-Size: 10076
-SHA256sum: 3f9ae5fd618dcdef7ac32066ec76d668c864d54c1d00dda2c099aaa6cae748eb
+Filename: luci-app-fileassistant_25.325.66099~edb4c3a_all.ipk
+Size: 10079
+SHA256sum: 68321d3f5adc2946998fa1756e30d9e4190e7973ec55ddb8838d3e5b2123fb2e
 Description:  LuCI support for Fileassistant
 
 Package: luci-app-lucky
@@ -152,14 +152,14 @@ Depends: libc, lucky, luci-compat, luci-lua-runtime
 Source: feeds/wikjxwrt/luci-app-lucky
 SourceName: luci-app-lucky
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 40960
 Filename: luci-app-lucky_2.2.2-r1_all.ipk
-Size: 5869
-SHA256sum: ee8c6c0b1a4af4e3d4d637b17177a082770763fe403140e13fcc6ac4bebb831d
+Size: 5877
+SHA256sum: e83d8475d3329b5a6ef263cbf2bc1218184e9d4f06311f41f8ed69c1f7729c24
 Description:  LuCI Support for  lucky 
 
 Package: luci-app-mosdns
@@ -168,30 +168,30 @@ Depends: libc, mosdns, jsonfilter, curl, v2ray-geoip, v2ray-geosite, v2dat
 Source: feeds/wikjxwrt/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 389120
 Filename: luci-app-mosdns_1.6.16-r1_all.ipk
-Size: 103619
-SHA256sum: 2ee22ffcbd65e71b1ec4f6b6a314cc41dbf993470f8bdf9a4b687fa6d87de840
+Size: 103483
+SHA256sum: 319bcfb542326eecf6813372ab960a71418f2548d7326bf9e92e2fed2c286588
 Description:  LuCI Support for mosdns
 
 Package: luci-app-mwan3helper
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-app-mwan3, pdnsd-alt, dnsmasq-full, ipset, luci-lua-runtime
 Source: feeds/wikjxwrt/luci-app-mwan3helper
 SourceName: luci-app-mwan3helper
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 389120
-Filename: luci-app-mwan3helper_25.324.45224~bf6d207_all.ipk
-Size: 92852
-SHA256sum: 248f509cfadd560d16c49359a260ffe7296522e3f25883972b2a910882e84b99
+Filename: luci-app-mwan3helper_25.325.66099~edb4c3a_all.ipk
+Size: 92946
+SHA256sum: 332947de2f608350894a4bf8f5e15b3f157ee554a2b04f98e793cbe22d89734b
 Description:  LuCI support for MWAN3 Helper
 
 Package: luci-app-netdata
@@ -200,14 +200,14 @@ Depends: libc, netdata, luci-lua-runtime
 Source: feeds/wikjxwrt/luci-app-netdata
 SourceName: luci-app-netdata
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 10240
 Filename: luci-app-netdata_1.0-r3_all.ipk
-Size: 1481
-SHA256sum: e17af1c66e4cbe7e0fb84cd9f28855ca2b36a4ef6ba4ea9109d100a379efc841
+Size: 1492
+SHA256sum: 1cf42e58e2de7bc206fd81e3a03afef96bbf09053e9250df2ece59389e6a0e4e
 Description:  LuCI support for Netdata
 
 Package: luci-app-nikki
@@ -216,14 +216,14 @@ Depends: libc, luci-base, nikki
 Source: feeds/wikjxwrt/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-nikki_1.24.4-r1_all.ipk
-Size: 10046
-SHA256sum: 609f2035f8fbe1599bae93c8d3d120f8457f41b53daaefab05ea651e3c8f0b4f
+Size: 10050
+SHA256sum: 1d03dad66712606a23ecb009871787c9824641d402d44dbc2c69337414921ac5
 Description:  LuCI Support for nikki
 
 Package: luci-app-oaf
@@ -232,14 +232,14 @@ Depends: libc, appfilter, kmod-oaf, luci-compat, luci-lua-runtime
 Source: feeds/wikjxwrt/luci-app-oaf
 SourceName: luci-app-oaf
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3635200
 Filename: luci-app-oaf_6.1.2-r1_all.ipk
-Size: 2475480
-SHA256sum: 51311fe513a0ab80191ac2d485727c4c0fdb19486272bed69990d0e118a717c5
+Size: 2475494
+SHA256sum: 7b4bdd42361dfabb09d60b0925143e12e304ea92f07e793e58248172d1571d31
 Description:  LuCI support for OAF
 
 Package: luci-app-openclash
@@ -248,13 +248,13 @@ Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, km
 Source: feeds/wikjxwrt/luci-app-openclash
 SourceName: luci-app-openclash
 Section: opt
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Maintainer: vernesong
 Architecture: all
 Installed-Size: 66406400
 Filename: luci-app-openclash_0.47.028_all.ipk
-Size: 19842134
-SHA256sum: fbdaf4cc365fc7e5e37c884e8c7530ffc0566c33b13e96005a040f086c3dd838
+Size: 19841536
+SHA256sum: a10b7f9a69a82eebbb7aa176a093d46ff6093b834a70f39d92c9e6f375980eea
 Description:  A LuCI support for clash
 
 Package: luci-app-ota
@@ -263,14 +263,14 @@ Depends: libc, fw_download_tool, jsonfilter, luci-lua-runtime
 Source: feeds/wikjxwrt/luci-app-ota
 SourceName: luci-app-ota
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
 Filename: luci-app-ota_1.2-r1_all.ipk
-Size: 11409
-SHA256sum: 681ee4d9d0838b126e3dce3cc582bd3bc74ac02c5b896863cd7706b47d55bc87
+Size: 11416
+SHA256sum: f9045074ebba243c50c9468bc732ce51de82c5eb8ff715ac3fc065638672c2fc
 Description:  LuCI for OTA upgrade
 
 Package: luci-app-poweroffdevice
@@ -279,30 +279,30 @@ Depends: libc, luci-lua-runtime
 Source: feeds/wikjxwrt/luci-app-poweroffdevice
 SourceName: luci-app-poweroffdevice
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
 Filename: luci-app-poweroffdevice_1-r4_all.ipk
-Size: 2340
-SHA256sum: 6891b8c9ca861e777860f4a1acf9230420ed7d8e4b81aeee7cecf8a35f49fda4
+Size: 2349
+SHA256sum: a55f3be81149b0111efd02c54a23271fcfa2842fa699e32d3b787408a55b1824
 Description:  provides Web UI to shut down (power off) your device.
 
 Package: luci-app-ramfree
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-lua-runtime
 Source: feeds/wikjxwrt/luci-app-ramfree
 SourceName: luci-app-ramfree
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 10240
-Filename: luci-app-ramfree_25.324.45224~bf6d207_all.ipk
+Filename: luci-app-ramfree_25.325.66099~edb4c3a_all.ipk
 Size: 1446
-SHA256sum: 695385ee34e27b1be91f6b4a0c64c55fddf08cd037ff47f4d7ab364b736aff71
+SHA256sum: f680709a408f85612b31ecf6333f88e874f29d1dfa89f261d61f178af458bccf
 Description:  luci-app-ramfree
 
 Package: luci-app-wechatpush
@@ -311,14 +311,14 @@ Depends: libc, iputils-arping, curl, jq, bash, luci-lua-runtime, wrtbwmon
 Source: feeds/wikjxwrt/luci-app-wechatpush
 SourceName: luci-app-wechatpush
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 266240
 Filename: luci-app-wechatpush_3.6.10_all.ipk
-Size: 81302
-SHA256sum: c2586a03b07865fb2c429f0988bea36c8e9bb6db024442f39bfe45256f7e7dbf
+Size: 81316
+SHA256sum: b3eca7c2715d5086aaa38c006864f1cf95e0affe7a45343ebccf2c38db744949
 Description:  LuCI support for wechatpush
 
 Package: luci-app-wrtbwmon
@@ -328,247 +328,247 @@ Source: feeds/wikjxwrt/luci-app-wrtbwmon
 SourceName: luci-app-wrtbwmon
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 40960
 Filename: luci-app-wrtbwmon_2.0.13-r1_all.ipk
-Size: 8731
-SHA256sum: 13c404b20c6913411a078b50a74288c4fa0c34385e34fd2b10bc808226a10f03
+Size: 8733
+SHA256sum: 21f139bf857f92d0ec7903ebfce8dc4f9c316161627f3b8426c3002fc9525be9
 Description:  A Luci module that uses wrtbwmon to track bandwidth usage
 
 Package: luci-i18n-argon-config-zh-cn
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-app-argon-config
 Source: feeds/wikjxwrt/luci-app-argon-config
 SourceName: luci-app-argon-config
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Maintainer: jerrykuku <jerrykuku@qq.com>
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-argon-config-zh-cn_25.324.45224~bf6d207_all.ipk
-Size: 2252
-SHA256sum: 5e70907c2008dacf6b7d0a3acfe5106c1ef511c3a817a785c6f5991f91f0eeac
+Filename: luci-i18n-argon-config-zh-cn_25.325.66099~edb4c3a_all.ipk
+Size: 2257
+SHA256sum: f9bd409340329e2afd622a1a72a5c8db840e27637591aea21a6b45ea3066d7a3
 Description:  Translation for luci-app-argon-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-arpbind-zh-cn
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-app-arpbind
 Source: feeds/wikjxwrt/luci-app-arpbind
 SourceName: luci-app-arpbind
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-arpbind-zh-cn_25.324.45224~bf6d207_all.ipk
-Size: 1345
-SHA256sum: f48ab6f16d72d2753e934426257e907831aaae1dfe61df707c2797539cfae2a7
+Filename: luci-i18n-arpbind-zh-cn_25.325.66099~edb4c3a_all.ipk
+Size: 1344
+SHA256sum: 8cbcbab25e1bc4c87da716a06aa3527ef4c311883a303338f95dd95a4acdd4aa
 Description:  Translation for luci-app-arpbind - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-cpu-status-zh-cn
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-app-cpu-status
 Source: feeds/wikjxwrt/luci-app-cpu-status
 SourceName: luci-app-cpu-status
 License: MIT
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-cpu-status-zh-cn_25.324.45224~bf6d207_all.ipk
-Size: 1285
-SHA256sum: 1a8f93cd6e153cb9fb4b9c3db64eb3bdc1a7280f5b169103b23e1bbe618baef0
+Filename: luci-i18n-cpu-status-zh-cn_25.325.66099~edb4c3a_all.ipk
+Size: 1283
+SHA256sum: 7686b3f66ebd9286d4f72eff566cefec0cae740e00b6b90be00228702522f229
 Description:  Translation for luci-app-cpu-status - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ddns-go-zh-cn
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-app-ddns-go
 Source: feeds/wikjxwrt/luci-app-ddns-go
 SourceName: luci-app-ddns-go
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Maintainer: sirpdboy  <herboy2008@gmail.com>
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-ddns-go-zh-cn_25.324.45224~bf6d207_all.ipk
-Size: 2149
-SHA256sum: e1914582a05a45cb791891ff65e5ddd5ccad65664f5a71b0bd3995573d7f311d
+Filename: luci-i18n-ddns-go-zh-cn_25.325.66099~edb4c3a_all.ipk
+Size: 2154
+SHA256sum: c2d42a72d2b9edeea5b9e4d2c7deecccdd76b6247bcefec7739dd908ea10c4dd
 Description:  Translation for luci-app-ddns-go - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-diskman-zh-cn
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-app-diskman
 Source: feeds/wikjxwrt/luci-app-diskman
 SourceName: luci-app-diskman
 License: AGPL-3.0
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Maintainer: lisaac <lisaac.cn@gmail.com>
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-diskman-zh-cn_25.324.45224~bf6d207_all.ipk
-Size: 2685
-SHA256sum: fc2b344fd4daacb41aab87a0cd9b0b40bbf1274f64e10c3719a2439ff7dc427f
+Filename: luci-i18n-diskman-zh-cn_25.325.66099~edb4c3a_all.ipk
+Size: 2690
+SHA256sum: 6f7ff2e8a3d281fb8717e07367a9851f16dda88e435d502c2faee7acef6b6d08
 Description:  Translation for luci-app-diskman - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-lucky-zh-cn
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-app-lucky
 Source: feeds/wikjxwrt/luci-app-lucky
 SourceName: luci-app-lucky
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-lucky-zh-cn_25.324.45224~bf6d207_all.ipk
-Size: 2229
-SHA256sum: 6c93ba4b3de3dd37b07426a8c375bc0b1018472687e50b63f031360e41a8611c
+Filename: luci-i18n-lucky-zh-cn_25.325.66099~edb4c3a_all.ipk
+Size: 2233
+SHA256sum: 08fa105ea019f8e7d58490f2c524233eef16d8e60959baf8a893d9ea1c2df5ca
 Description:  Translation for luci-app-lucky - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-mosdns-zh-cn
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-app-mosdns
 Source: feeds/wikjxwrt/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-mosdns-zh-cn_25.324.45224~bf6d207_all.ipk
-Size: 5301
-SHA256sum: dffec97db5fa9fb7a55daa0196bf282b94cb8c28c83825ee588d9383d1219c17
+Filename: luci-i18n-mosdns-zh-cn_25.325.66099~edb4c3a_all.ipk
+Size: 5310
+SHA256sum: eeb7b3200743ec95de9a48fe11884c291eb5c12bc511bd05a0b4c0a3ce103107
 Description:  Translation for luci-app-mosdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-mwan3helper-zh-cn
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-app-mwan3helper
 Source: feeds/wikjxwrt/luci-app-mwan3helper
 SourceName: luci-app-mwan3helper
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-mwan3helper-zh-cn_25.324.45224~bf6d207_all.ipk
-Size: 1419
-SHA256sum: 76ddb31b5b147e3dbe1b102deebc4f966f6e3d2997686f5a2d8cb9d7a323cd5b
+Filename: luci-i18n-mwan3helper-zh-cn_25.325.66099~edb4c3a_all.ipk
+Size: 1422
+SHA256sum: bad45a911c9810b958b8241514fcf656786360815fe94af7bb8862acbe8ecabf
 Description:  Translation for luci-app-mwan3helper - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-netdata-zh-cn
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-app-netdata
 Source: feeds/wikjxwrt/luci-app-netdata
 SourceName: luci-app-netdata
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-netdata-zh-cn_25.324.45224~bf6d207_all.ipk
-Size: 1162
-SHA256sum: eb954540322dc3affd9695bee268a0b4a857e89212eef010c22acb11f55827a2
+Filename: luci-i18n-netdata-zh-cn_25.325.66099~edb4c3a_all.ipk
+Size: 1163
+SHA256sum: 485eb31d37babda839b4707cf8568e4ea510a8d821bd72d844052624d0e6fb3e
 Description:  Translation for luci-app-netdata - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-zh-cn
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-app-nikki
 Source: feeds/wikjxwrt/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-cn_25.324.45224~bf6d207_all.ipk
-Size: 4890
-SHA256sum: 09528d14cb504f5a8ad42537e14ef8b297dec2174b9f019ffa0be51170f8decb
+Filename: luci-i18n-nikki-zh-cn_25.325.66099~edb4c3a_all.ipk
+Size: 4896
+SHA256sum: e4403069f95e1bedcfd3e55d5fbd8d7db0f30adeed3dc1f807e17c7ed3533b47
 Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-oaf-zh-cn
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-app-oaf
 Source: feeds/wikjxwrt/luci-app-oaf
 SourceName: luci-app-oaf
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-oaf-zh-cn_25.324.45224~bf6d207_all.ipk
-Size: 4746
-SHA256sum: 3d9f251e6ee6f3fb7bd2fe101ecbcbac83ec33097f2ccdb1bc6742f1daec6cc2
+Filename: luci-i18n-oaf-zh-cn_25.325.66099~edb4c3a_all.ipk
+Size: 4745
+SHA256sum: 9016e057d52cfe9c96899145627ef2b3b5c183e7f317b1ae382eee46920a4dd6
 Description:  Translation for luci-app-oaf - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ota-zh-cn
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-app-ota
 Source: feeds/wikjxwrt/luci-app-ota
 SourceName: luci-app-ota
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Maintainer: jjm2473 <jjm2473@gmail.com>
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-ota-zh-cn_25.324.45224~bf6d207_all.ipk
-Size: 1550
-SHA256sum: fd0ca93fc7714ab1bf01fe9c39740eb790825a08d029785274ff9dd65492a85b
+Filename: luci-i18n-ota-zh-cn_25.325.66099~edb4c3a_all.ipk
+Size: 1556
+SHA256sum: f9003aab8114469732085e9d885d67b05d2ed103efb112f3689303a612d21df4
 Description:  Translation for luci-app-ota - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-poweroffdevice-zh-cn
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-app-poweroffdevice
 Source: feeds/wikjxwrt/luci-app-poweroffdevice
 SourceName: luci-app-poweroffdevice
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-poweroffdevice-zh-cn_25.324.45224~bf6d207_all.ipk
-Size: 1405
-SHA256sum: 26a6508ef9f38ace5519bcd39507fc530ed7c3707ed8e1d678bcf43135c68c37
+Filename: luci-i18n-poweroffdevice-zh-cn_25.325.66099~edb4c3a_all.ipk
+Size: 1403
+SHA256sum: c2283641a8d91bfa0c31b9095ecb3ad31c3dab70a9896a654a40edc2c4298f17
 Description:  Translation for luci-app-poweroffdevice - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ramfree-zh-cn
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-app-ramfree
 Source: feeds/wikjxwrt/luci-app-ramfree
 SourceName: luci-app-ramfree
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-ramfree-zh-cn_25.324.45224~bf6d207_all.ipk
-Size: 1165
-SHA256sum: d1df058a288f0652505be1732defbe67ce5ab8329748f65a6f027001aebccfff
+Filename: luci-i18n-ramfree-zh-cn_25.325.66099~edb4c3a_all.ipk
+Size: 1176
+SHA256sum: 51c631a671faef7b04dc34b12c59e540aef7033db729cb45bd16ffa56dd6c63e
 Description:  Translation for luci-app-ramfree - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-wechatpush-zh-cn
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-app-wechatpush
 Source: feeds/wikjxwrt/luci-app-wechatpush
 SourceName: luci-app-wechatpush
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Maintainer: tty228 <tty228@yeah.net>
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-wechatpush-zh-cn_25.324.45224~bf6d207_all.ipk
-Size: 13496
-SHA256sum: 2e3c2a26647e5a738da6a278f99c6152f8cf82b832e8ef82eedd7ef50224498c
+Filename: luci-i18n-wechatpush-zh-cn_25.325.66099~edb4c3a_all.ipk
+Size: 13498
+SHA256sum: f23e37fd0c2e6ebf56084a50970a85f04b45957c57a6ed8987c0cefce6fadb3f
 Description:  Translation for luci-app-wechatpush - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-wrtbwmon-zh-cn
-Version: 25.324.45224~bf6d207
+Version: 25.325.66099~edb4c3a
 Depends: libc, luci-app-wrtbwmon
 Source: feeds/wikjxwrt/luci-app-wrtbwmon
 SourceName: luci-app-wrtbwmon
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-wrtbwmon-zh-cn_25.324.45224~bf6d207_all.ipk
+Filename: luci-i18n-wrtbwmon-zh-cn_25.325.66099~edb4c3a_all.ipk
 Size: 2307
-SHA256sum: c9d6a68dc182e61dc775bd1279062ac2ad01b8ad724b78db283f88af2aafc536
+SHA256sum: 3538d65939b4b1b8291f1be6f69029fbb35e1099970acdcb62cdf7b5359e9bbd
 Description:  Translation for luci-app-wrtbwmon - 简体中文 (Simplified Chinese)
 
 Package: luci-theme-argon
@@ -577,14 +577,14 @@ Depends: libc, curl, jsonfilter, luci-lua-runtime
 Source: feeds/wikjxwrt/luci-theme-argon
 SourceName: luci-theme-argon
 Section: luci
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 4648960
 Filename: luci-theme-argon_2.3.1-r20230420_all.ipk
-Size: 4253211
-SHA256sum: 9f9ca8e713ca70dc8c964c7e58bacff9fdc7a3e408d6ab55bc4e3fbd8cd0cddc
+Size: 4253224
+SHA256sum: b2c96041d8a7cde0ff13a8aae5e27518dd59582232b3856ff9db6da674b33aee
 Description:  Argon Theme
 
 Package: lucky
@@ -595,14 +595,14 @@ SourceName: lucky
 License: GPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/gdy666/lucky
 Maintainer: GDY666 <gdy666@foxmail.com>
 Architecture: x86_64
 Installed-Size: 9277440
 Filename: lucky_2.20.2-r1_x86_64.ipk
-Size: 9272564
-SHA256sum: 7b149c14af28f7b895533d8e58595ddc3afb271eb2d0f93aa9ec368f28c6068f
+Size: 9272566
+SHA256sum: 353c69cd6dd4fde8fa7e24d573cfcd2b7b303673f73b4a3b4d7502c0e06c37a4
 Description:  Main functions of Lucky: ipv4/ipv6 portforward,ddns,IOT wake on lan ,reverse proxy and more...
 
 Package: mosdns
@@ -612,14 +612,14 @@ Source: feeds/wikjxwrt/mosdns
 SourceName: mosdns
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/IrineSistiana/mosdns
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: x86_64
 Installed-Size: 18903040
 Filename: mosdns_5.3.3-r5_x86_64.ipk
-Size: 7155147
-SHA256sum: f5536f4793969f77080cf0f39837c461c448b6e6886a2d9eb7a90531352dd221
+Size: 7155158
+SHA256sum: 969a6ba8f39c5e1d17256e3dcb36b94b920f38dee14006b5104151d915b92867
 Description:  A plug-in DNS forwarder/splitter
 
 Package: nikki
@@ -630,14 +630,14 @@ Source: feeds/wikjxwrt/nikki
 SourceName: nikki
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://wiki.metacubex.one
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 34283520
 Filename: nikki_2025.11.09-r1_x86_64.ipk
-Size: 12366485
-SHA256sum: 1a841aa3d8195199ba167c370324a542a90c573e04bd395ca3648d88859b7578
+Size: 12366395
+SHA256sum: b7fe697c431c17820d1be34ed7e6ac4ea9dee261727c9545647f875d8da6f602
 Description:  A rule based proxy in Go.
 
 Package: pdnsd-alt
@@ -646,12 +646,12 @@ Depends: libc, libpthread
 Source: feeds/wikjxwrt/pdnsd-alt
 SourceName: pdnsd
 Section: net
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Architecture: x86_64
 Installed-Size: 215040
 Filename: pdnsd-alt_1.2.9b-par-r2_x86_64.ipk
-Size: 92976
-SHA256sum: ade6f9ead6e847380f38cac96c89af9add1d4a3ca5b8ef71c3ad8ef90ab01cb0
+Size: 92980
+SHA256sum: 83fc46177f733ded717c72b42d9706ba54fc4f0bd2827b69eebe7a9f04d835b6
 Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
  contents are written to hard disk on exit) that is designed to cope with
  unreachable or down DNS servers (for example in dial-in networking).
@@ -667,14 +667,14 @@ Source: feeds/wikjxwrt/v2dat
 SourceName: v2dat
 License: GPL-3.0
 Section: utils
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 URL: https://github.com/urlesistiana/v2dat
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
 Installed-Size: 6287360
 Filename: v2dat_2022.12.15~47b8ee51-r3_x86_64.ipk
-Size: 2510637
-SHA256sum: 7372bff1efd3b2ae7a06e1b2241c598e26d7bed850fd7803a4f5b2fc88a60d94
+Size: 2510669
+SHA256sum: fcd66dff71c6867355ee840753e3810a115ec952d75e6fbf96436ba5d1e20b80
 Description:  V2ray geo/ip data unpack tools
 
 Package: wrtbwmon
@@ -683,12 +683,12 @@ Depends: libc, iptables
 Source: feeds/wikjxwrt/wrtbwmon
 SourceName: wrtbwmon
 Section: net
-SourceDateEpoch: 1763642024
+SourceDateEpoch: 1763749299
 Architecture: all
 Installed-Size: 30720
 Filename: wrtbwmon_1.2.1-r3_all.ipk
-Size: 7943
-SHA256sum: 7f1993e0dff37711a512a2e8e6de1764cd834f9b17d30665374ce7784f6af3b9
+Size: 7939
+SHA256sum: 21c87f4133d0db1b63f779d32a563692d58b85c98e513a1995ea2db7f52bfcc0
 Description:  An CERNET client daemon,
  Most usually used in China collages.
 
