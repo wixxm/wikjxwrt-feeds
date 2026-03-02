@@ -5,8 +5,8 @@ Section: TT Apps
 Architecture: x86_64
 Installed-Size: 102400
 Filename: appfilter_6.1.6-r1_x86_64.ipk
-Size: 32666
-SHA256sum: 51815f86fef5458fc8e62ec4f70ab06175e85439ef5b72247c64d864a5bdf19e
+Size: 32678
+SHA256sum: c6f9517c262031a55f33a07e8acc9eba1d0384fd37441b0a19cfe83a33733f09
 Description:  openappfilter app
 
 Package: ddns-go
@@ -18,8 +18,8 @@ URL: https://github.com/jeessy2/ddns-go
 Architecture: x86_64
 Installed-Size: 11356160
 Filename: ddns-go_6.15.0-r1_x86_64.ipk
-Size: 4576968
-SHA256sum: a5b60bad4b43a9792c8e01e62b93ca58be88392fda86146fc72155e0a74cbee8
+Size: 4576831
+SHA256sum: 17d1ba02277e4e836e630b923ddc8d3f0eb3fd66f22a51cf920da29dc36ca0bb
 Description:  ddns-go is a automatically obtain your public IPv4 or IPv6 address and resolve it to the corresponding domain name service,
  support Alidns Dnspod Cloudflare Hicloud Callback Baiducloud porkbun GoDaddy Google Domains.
 
@@ -31,8 +31,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 20480
 Filename: fw_download_tool_1_x86_64.ipk
-Size: 3413
-SHA256sum: a5c934899f35077053a35d6ef2c1d20c1493317c1b1743c4757644756505bf87
+Size: 3411
+SHA256sum: a49b15cd1d63c1f2bc4362abcfbe3468d1bff0ad4773f85122e93785f6427e81
 Description:  Firmware downloader
 
 Package: luci-app-argon-config
@@ -43,20 +43,20 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-app-argon-config_1.0-r20230608_all.ipk
-Size: 4084
-SHA256sum: 9beeea63d172435405a955ae6b30a2027aee1a8961028e78e549d11bfe03c26e
+Size: 4077
+SHA256sum: a0088334393ef94ac76af759dedb792cc556cccfbc9eccd79bb9e55c7001a19c
 Description:  LuCI app for Argon theme configuration
 
 Package: luci-app-arpbind
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, ip, luci-lua-runtime
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-app-arpbind_26.059.23590~59ee8a8_all.ipk
-Size: 2853
-SHA256sum: 1346b1f27b5eecfd6b3ef89b5910e14e38519396f2de61d1eb11dd00e885c7a0
+Filename: luci-app-arpbind_26.060.66467~aa1074a_all.ipk
+Size: 2841
+SHA256sum: 2f0a175bda6e347518c479c83e811f9469a9f3be719d7d3fb160c906cbe453fc
 Description:  ARP Binding
 
 Package: luci-app-cpu-status
@@ -68,8 +68,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 20480
 Filename: luci-app-cpu-status_0.5.0-r1-r1_all.ipk
-Size: 3258
-SHA256sum: 279bde0fa21ede69a52eff6d751af0d021b7682601d9455c12af9755dd2e3f2a
+Size: 3260
+SHA256sum: 0e4fefb567f86ee0bb4f584b9a9ae2fdd04cd6631759145deea22fbba3cc4a5f
 Description:  CPU utilization info for the LuCI status page
 
 Package: luci-app-ddns-go
@@ -80,33 +80,33 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 40960
 Filename: luci-app-ddns-go_1.6.6-r20260228_all.ipk
-Size: 9056
-SHA256sum: 69cecbe9bac0c2306e54afe8c4ea8d7e09d1806af4fba6af8eb09d72cf87d917
+Size: 9055
+SHA256sum: f314afa182e344eaf5dd5d2673add8809b1987413603df54da320b4ba9807c29
 Description:  LuCI Support for Dynamic ddns-go Client
 
 Package: luci-app-diskman
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, blkid, e2fsprogs, parted, smartmontools, btrfs-progs, lsblk, luci-lua-runtime
 License: AGPL-3.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 112640
-Filename: luci-app-diskman_26.059.23590~59ee8a8_all.ipk
-Size: 21473
-SHA256sum: 44915b59fb3d28f570fe30db59582078228edff30df2439dcef7ee24a5c09e45
+Filename: luci-app-diskman_26.060.66467~aa1074a_all.ipk
+Size: 21460
+SHA256sum: 672e97b7ec78989f65c04c2cd0255d52c65109f1845e4cb939a9ca163757a5c0
 Description:  Disk Manager interface for LuCI
 
 Package: luci-app-fileassistant
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-lua-runtime
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-app-fileassistant_26.059.23590~59ee8a8_all.ipk
-Size: 10083
-SHA256sum: d46878e2bd87c0ffcbaddbe697a4fa220dd6dbe5cff2fa13ee0c1dc073944bf1
+Filename: luci-app-fileassistant_26.060.66467~aa1074a_all.ipk
+Size: 10071
+SHA256sum: 6024de54d24c628df1f6341065f8b1169a865628bdc9293a0007cabbc4670701
 Description:  LuCI support for Fileassistant
 
 Package: luci-app-lucky
@@ -117,8 +117,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 40960
 Filename: luci-app-lucky_2.2.2-r1_all.ipk
-Size: 5842
-SHA256sum: bc92ced5d257a9b4d39c52a99bd9fdcc2d4d98b04620a9dd6d79d5c93d81058c
+Size: 5839
+SHA256sum: a3f541d74dc6e1f1209f8dc19061761565774c0b298baa0042af08849bd7a98b
 Description:  LuCI Support for  lucky 
 
 Package: luci-app-mosdns
@@ -129,20 +129,20 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 389120
 Filename: luci-app-mosdns_1.6.17-r1_all.ipk
-Size: 103640
-SHA256sum: 2d35911bc19a6a3ec47039ec5df16a9393c96aca7c95270e1acf45e67f454f4b
+Size: 103589
+SHA256sum: ed90fc6e311ed8f9b2563735fbc01cf49fd30023201466c57998280f7e9a1a07
 Description:  LuCI Support for mosdns
 
 Package: luci-app-mwan3helper
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-app-mwan3, pdnsd-alt, dnsmasq-full, ipset, luci-lua-runtime
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 389120
-Filename: luci-app-mwan3helper_26.059.23590~59ee8a8_all.ipk
-Size: 92898
-SHA256sum: 57ff7814aae2e4e240d29c57df51d91c0eaf0f53605ccbff0e7d1f41d43f0077
+Filename: luci-app-mwan3helper_26.060.66467~aa1074a_all.ipk
+Size: 92834
+SHA256sum: 6fe6942a34d74fe16d22ed230315f32593c7984962d8c9054a812c8a0ebecb7c
 Description:  LuCI support for MWAN3 Helper
 
 Package: luci-app-netdata
@@ -153,8 +153,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 10240
 Filename: luci-app-netdata_1.0-r3_all.ipk
-Size: 1484
-SHA256sum: de009fa6790e251d8f51b2f01ddf00bedc100151dac53094c0be59ab3a62fe1e
+Size: 1479
+SHA256sum: 25748fa67c36968dea489c5c60426d88fdd6bd64d664124d2df1213cd0b6bc08
 Description:  LuCI support for Netdata
 
 Package: luci-app-nikki
@@ -165,8 +165,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-nikki_1.25.1-r1_all.ipk
-Size: 10356
-SHA256sum: e12b5d54fe6c779f7f80c73fd7bc4148a5afb11492640149039217e296942094
+Size: 10344
+SHA256sum: a379be33f527dd209657867a88c036bf6313573987733dda5bfdbe62e1b3568e
 Description:  LuCI Support for nikki
 
 Package: luci-app-oaf
@@ -177,8 +177,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3635200
 Filename: luci-app-oaf_6.1.2-r1_all.ipk
-Size: 2475518
-SHA256sum: 4cc0662aa63b61bb310cd7ed2e3dace492c736200ad5559a76b2081b1538aa06
+Size: 2475491
+SHA256sum: bec59daf916bc486bea384d4de608584c84c304f424eb34cc0860b444018a3d3
 Description:  LuCI support for OAF
 
 Package: luci-app-openclash
@@ -188,8 +188,8 @@ Section: opt
 Architecture: all
 Installed-Size: 66416640
 Filename: luci-app-openclash_0.47.055_all.ipk
-Size: 19847810
-SHA256sum: 2b7acbd801f225ed83733f8e5de949183ef2f56f49f655627653cb2333c32514
+Size: 19853184
+SHA256sum: 955f8c75e3d3bc60e58acf23b3968c6e0e8fda1c70281c763b500343e4d5c453
 Description:  A LuCI support for clash
 
 Package: luci-app-ota
@@ -200,8 +200,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-app-ota_1.2-r1_all.ipk
-Size: 11419
-SHA256sum: 4df3b23b66507cb00b85b4f6754017ede9898f1eb2d15260a014d05bf1a4649c
+Size: 11422
+SHA256sum: a5d55faae46867b87bb08cad833050fb63351328d2017002710c982efc5e28f2
 Description:  LuCI for OTA upgrade
 
 Package: luci-app-poweroffdevice
@@ -212,20 +212,20 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 20480
 Filename: luci-app-poweroffdevice_1-r4_all.ipk
-Size: 2344
-SHA256sum: 46e8fb25782b6189ef67dfda09f228234c072029a6409fb9b1a522a04e6619e9
+Size: 2342
+SHA256sum: 815446ae481cb9ef815c282e3ba25febf02964c8e0ec86c0428b28399fc6bc98
 Description:  provides Web UI to shut down (power off) your device.
 
 Package: luci-app-ramfree
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-lua-runtime
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-app-ramfree_26.059.23590~59ee8a8_all.ipk
-Size: 1444
-SHA256sum: c1221ff8f31ab93854eb2a5c2a308c9c2c549018bbe22cf02c8e3c8e9df69f62
+Filename: luci-app-ramfree_26.060.66467~aa1074a_all.ipk
+Size: 1441
+SHA256sum: 5f536e5918eee520422e83d75fea38f1c00337b5764467416f263064de99fb01
 Description:  luci-app-ramfree
 
 Package: luci-app-wechatpush
@@ -236,8 +236,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 266240
 Filename: luci-app-wechatpush_3.6.11_all.ipk
-Size: 81764
-SHA256sum: dec203be5069e8b7becf7178dadacd18e51efb991569fbb74994d5c628e20093
+Size: 81769
+SHA256sum: fb1dbf8a467b9a8b4179934fd77931c3062b9c39446b5fb4306cdf3e362b275a
 Description:  LuCI support for wechatpush
 
 Package: luci-app-wrtbwmon
@@ -249,187 +249,187 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 40960
 Filename: luci-app-wrtbwmon_2.0.13-r1_all.ipk
-Size: 8733
-SHA256sum: e9e77fdec71772a747bd06f8138cea70f9220fb27fe2430f5cd17f80342b2b55
+Size: 8728
+SHA256sum: f5ccea13c4ea770f039ac58675f9b15e2148f30f86d132bb3f31250dfba01fa3
 Description:  A Luci module that uses wrtbwmon to track bandwidth usage
 
 Package: luci-i18n-argon-config-zh-cn
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-app-argon-config
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-argon-config-zh-cn_26.059.23590~59ee8a8_all.ipk
-Size: 2255
-SHA256sum: f2e7826c31b2e75882f6ec3cfce8b714449d6c8cb672a37a51b48b150093207b
+Filename: luci-i18n-argon-config-zh-cn_26.060.66467~aa1074a_all.ipk
+Size: 2245
+SHA256sum: 43fbadbb0bb8821e9cbad27d09f79e467b870230aecc8beea4b38490a894f583
 Description:  Translation for luci-app-argon-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-arpbind-zh-cn
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-app-arpbind
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-arpbind-zh-cn_26.059.23590~59ee8a8_all.ipk
-Size: 1346
-SHA256sum: 7f376308dc69e4843c4153a02b501efd12847d6ccc064e32885e3cc29ddec0a4
+Filename: luci-i18n-arpbind-zh-cn_26.060.66467~aa1074a_all.ipk
+Size: 1341
+SHA256sum: 6dc12a53c24feb8037c634b607fb43b15b80795c718c9ed07054630a344edf3b
 Description:  Translation for luci-app-arpbind - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-cpu-status-zh-cn
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-app-cpu-status
 License: MIT
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-cpu-status-zh-cn_26.059.23590~59ee8a8_all.ipk
-Size: 1289
-SHA256sum: 2117c62443fc8c6479b32fc79751a9a42f08cd6a45a27c174ac9691ac8eb0e3d
+Filename: luci-i18n-cpu-status-zh-cn_26.060.66467~aa1074a_all.ipk
+Size: 1278
+SHA256sum: 773e40153f3d54cc8e88d36e1f352e2f48654a033645a25202973496e6f2e583
 Description:  Translation for luci-app-cpu-status - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ddns-go-zh-cn
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-app-ddns-go
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-ddns-go-zh-cn_26.059.23590~59ee8a8_all.ipk
-Size: 2297
-SHA256sum: 836bc134a0057bc579817542624ca2b6f6c12263fc4aa3fc7151fb6187a39842
+Filename: luci-i18n-ddns-go-zh-cn_26.060.66467~aa1074a_all.ipk
+Size: 2291
+SHA256sum: 80c780aad9ec4baf411bbb6c9ca190133dcf0f31047c614fd1089b5bf5ae8686
 Description:  Translation for luci-app-ddns-go - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-diskman-zh-cn
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-diskman-zh-cn_26.059.23590~59ee8a8_all.ipk
+Filename: luci-i18n-diskman-zh-cn_26.060.66467~aa1074a_all.ipk
 Size: 2688
-SHA256sum: 165ef77a6ec7da1a06fec93912accd9deae71578340bc15c0acb0865ef43bf68
+SHA256sum: 0be87cc427a1b69052c66f0121e6460b7844459cef7c971b1f81e9d11fd7bf96
 Description:  Translation for luci-app-diskman - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-lucky-zh-cn
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-app-lucky
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-lucky-zh-cn_26.059.23590~59ee8a8_all.ipk
-Size: 2235
-SHA256sum: ce99dcf60138b2bb3317c990ab5130539ca67269e13565dd57be8f9b9f529dc3
+Filename: luci-i18n-lucky-zh-cn_26.060.66467~aa1074a_all.ipk
+Size: 2239
+SHA256sum: 4f3a756105adf282ffb94b119a81a005046e4d5492e8fa095b52cf9d337ed34a
 Description:  Translation for luci-app-lucky - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-mosdns-zh-cn
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-app-mosdns
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-mosdns-zh-cn_26.059.23590~59ee8a8_all.ipk
-Size: 5324
-SHA256sum: 1a4d73801b67de0f6b35350cf9bfe855499be94b5f6c074705af4160838fb4a9
+Filename: luci-i18n-mosdns-zh-cn_26.060.66467~aa1074a_all.ipk
+Size: 5319
+SHA256sum: a9084a809cbb5ce98c54de93e3f0e7d0fefeeb64015517ddd5291538ca9118f9
 Description:  Translation for luci-app-mosdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-mwan3helper-zh-cn
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-app-mwan3helper
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-mwan3helper-zh-cn_26.059.23590~59ee8a8_all.ipk
-Size: 1425
-SHA256sum: f2d02a0e6f2adb6f9cf2ba11e40dd475a40f17ef76451536ddef1bf1316a8452
+Filename: luci-i18n-mwan3helper-zh-cn_26.060.66467~aa1074a_all.ipk
+Size: 1415
+SHA256sum: 929c40a63022fa6bce5267364a1481250ce3865d348d68d12f75ff7594c9001a
 Description:  Translation for luci-app-mwan3helper - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-netdata-zh-cn
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-app-netdata
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-netdata-zh-cn_26.059.23590~59ee8a8_all.ipk
-Size: 1163
-SHA256sum: 150fc32630f65985a1f9f42e5ffd68d8bba98fc97798d47765a515bd0bd88441
+Filename: luci-i18n-netdata-zh-cn_26.060.66467~aa1074a_all.ipk
+Size: 1150
+SHA256sum: cf8d2e9543e72ba10b1152a37c92b658744db5ea8c6b8569ff97bef3d10ac083
 Description:  Translation for luci-app-netdata - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-zh-cn
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-cn_26.059.23590~59ee8a8_all.ipk
-Size: 5099
-SHA256sum: 4487dfce9895358930b76d18debc790cabff84cdd357817ddf34c72cad9077a6
+Filename: luci-i18n-nikki-zh-cn_26.060.66467~aa1074a_all.ipk
+Size: 5094
+SHA256sum: 6857ae5c4f0d75a4be6364bf1f087153e8e3d1229ac830f495eb2e4194205e49
 Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-oaf-zh-cn
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-app-oaf
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-oaf-zh-cn_26.059.23590~59ee8a8_all.ipk
+Filename: luci-i18n-oaf-zh-cn_26.060.66467~aa1074a_all.ipk
 Size: 4741
-SHA256sum: 51c74b8804f817e88094082339953fd4f06d885801bf25c9e961e5176c3fe694
+SHA256sum: 145b139b3f123c7f4b9d41eb315ceae2d16204b0cd865a4894ad8ad5b041de7e
 Description:  Translation for luci-app-oaf - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ota-zh-cn
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-app-ota
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-ota-zh-cn_26.059.23590~59ee8a8_all.ipk
-Size: 1563
-SHA256sum: d212358695ed0ca4aeb119efb3f631e9151884acd05128bf779ba17d952008f0
+Filename: luci-i18n-ota-zh-cn_26.060.66467~aa1074a_all.ipk
+Size: 1551
+SHA256sum: 156a0dc1ea794efa4d92546d773ed54cde0c599bcecfd5e496816b966b282adb
 Description:  Translation for luci-app-ota - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-poweroffdevice-zh-cn
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-app-poweroffdevice
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-poweroffdevice-zh-cn_26.059.23590~59ee8a8_all.ipk
-Size: 1409
-SHA256sum: 5429b69795a6270a3f439ff5b7ecbc2534a9824aaf0a77fcfbcaf11e44dabf9a
+Filename: luci-i18n-poweroffdevice-zh-cn_26.060.66467~aa1074a_all.ipk
+Size: 1403
+SHA256sum: deaa34e417ea84b503f63e58c45d917d579a73adb1606135e37298984f24edf9
 Description:  Translation for luci-app-poweroffdevice - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ramfree-zh-cn
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-app-ramfree
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-ramfree-zh-cn_26.059.23590~59ee8a8_all.ipk
-Size: 1169
-SHA256sum: 66063c25a7184d2963b1eea5083184c07a37afcd942bb1abc6ed2e59bea82c87
+Filename: luci-i18n-ramfree-zh-cn_26.060.66467~aa1074a_all.ipk
+Size: 1158
+SHA256sum: 3ce0c382cafa868b6990e89dc8421f85ccc1f3e6e5a3e0a3f4315fc221cd118e
 Description:  Translation for luci-app-ramfree - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-wechatpush-zh-cn
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-app-wechatpush
 Section: luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-wechatpush-zh-cn_26.059.23590~59ee8a8_all.ipk
-Size: 13541
-SHA256sum: d0a1cd747b4c0d1126e5a07e7854e693324510943a082aeace6bcad3cdf394b1
+Filename: luci-i18n-wechatpush-zh-cn_26.060.66467~aa1074a_all.ipk
+Size: 13535
+SHA256sum: 1ce8ed5127a5b6fd049bbe8edfa5c81fe845a919ccbd6805c214901e10f36705
 Description:  Translation for luci-app-wechatpush - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-wrtbwmon-zh-cn
-Version: 26.059.23590~59ee8a8
+Version: 26.060.66467~aa1074a
 Depends: libc, luci-app-wrtbwmon
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-wrtbwmon-zh-cn_26.059.23590~59ee8a8_all.ipk
-Size: 2310
-SHA256sum: 9ece6fd11923b3ad6f2b1d41533324cba289a6fcf7383335742542248832b2d4
+Filename: luci-i18n-wrtbwmon-zh-cn_26.060.66467~aa1074a_all.ipk
+Size: 2303
+SHA256sum: a102aa9336e446b4dffcc181781a7ee79979f571e66ebaaf01e5cc58f94bae1f
 Description:  Translation for luci-app-wrtbwmon - 简体中文 (Simplified Chinese)
 
 Package: luci-theme-argon
@@ -440,8 +440,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 4648960
 Filename: luci-theme-argon_2.3.1-r20230420_all.ipk
-Size: 4253247
-SHA256sum: d11839c32bf8bf079307e68bedbb24f1f25c0fcd35438d6be9f8093234a7c151
+Size: 4253207
+SHA256sum: 43fa6dd34bb769828a6b42bb53eda085e375132ea1117737329f206baf676bd6
 Description:  Argon Theme
 
 Package: lucky
@@ -453,8 +453,8 @@ URL: https://github.com/gdy666/lucky
 Architecture: x86_64
 Installed-Size: 10895360
 Filename: lucky_2.27.2-r1_x86_64.ipk
-Size: 10887550
-SHA256sum: cd564794dee99ab131f7285ef4387cb4a84663e69b18e35325fbd2279860236a
+Size: 10887545
+SHA256sum: d97b796474a578ca04e66675728c86c382877a2113fd8b9f3d9188d14d34745e
 Description:  Main functions of Lucky: ipv4/ipv6 portforward,ddns,IOT wake on lan ,reverse proxy and more...
 
 Package: mosdns
@@ -466,8 +466,8 @@ URL: https://github.com/IrineSistiana/mosdns
 Architecture: x86_64
 Installed-Size: 19312640
 Filename: mosdns_5.3.4-r1_x86_64.ipk
-Size: 7285387
-SHA256sum: 80e11435043e7871a570e3ac9200c7e91cb7540e2d2b160a9890801f3e79593e
+Size: 7285308
+SHA256sum: a4957a88452a355e6fe057372417cbfa8b7cdf5fbd7dcbba790ef9870468cbeb
 Description:  A plug-in DNS forwarder/splitter
 
 Package: nikki
@@ -481,8 +481,8 @@ URL: https://wiki.metacubex.one
 Architecture: x86_64
 Installed-Size: 36096000
 Filename: nikki_2026.02.08-r1_x86_64.ipk
-Size: 13074796
-SHA256sum: 079cc038dd2b8e0ea3fb3a1d8ea5de23c48e0d544c93efc8bc45c6ecf9bfde2a
+Size: 13074823
+SHA256sum: da8311c697498ec117e49db7f2340b2e81c4c73f9f768262edb25440a63a904d
 Description:  A rule based proxy in Go.
 
 Package: pdnsd-alt
@@ -492,8 +492,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 215040
 Filename: pdnsd-alt_1.2.9b-par-r2_x86_64.ipk
-Size: 92974
-SHA256sum: b444e24571bcaaeb7004daa4b032cf1a06f34c55658de84348196d0d10f12f6d
+Size: 92971
+SHA256sum: 3be00bab63a7982fe51435027737db253fb24a74fefb3f1afd74d8a3a0df266e
 Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
  contents are written to hard disk on exit) that is designed to cope with
  unreachable or down DNS servers (for example in dial-in networking).
@@ -512,7 +512,7 @@ Architecture: x86_64
 Installed-Size: 6287360
 Filename: v2dat_2022.12.15~47b8ee51-r3_x86_64.ipk
 Size: 2511122
-SHA256sum: 8fbff5ff2e678e1be4379f5dcfde22e9218f8eba3173ed2ea7fd72ea053bbc11
+SHA256sum: f21e0758ce7573594d0694b85520c34f7249c9e53f3b10b3b425074895a1545d
 Description:  V2ray geo/ip data unpack tools
 
 Package: wrtbwmon
@@ -522,8 +522,8 @@ Section: net
 Architecture: all
 Installed-Size: 30720
 Filename: wrtbwmon_1.2.1-r3_all.ipk
-Size: 7941
-SHA256sum: 067f531bc986317b8596e54d7179e7a7bbcad12eed4d35b2cd559fe62921a259
+Size: 7935
+SHA256sum: 4980bfd07fc081cac30f90ff8222fa8482446ce6f37ca64df4b6684f4aadbabe
 Description:  An CERNET client daemon,
  Most usually used in China collages.
 
