@@ -55,6 +55,8 @@ sync_repo_folder "https://github.com/sbwml/luci-app-mosdns.git" "v5" "luci-app-m
 sync_repo_folder "https://github.com/sbwml/luci-app-mosdns.git" "v5" "v2dat" "v2dat"
 sync_repo_folder "https://github.com/nikkinikki-org/OpenWrt-nikki.git" "main" "nikki" "nikki"
 sync_repo_folder "https://github.com/nikkinikki-org/OpenWrt-nikki.git" "main" "luci-app-nikki" "luci-app-nikki"
+sync_repo_folder "https://github.com/nikkinikki-org/OpenWrt-nikki.git" "main" "mihomo-alpha" "mihomo-alpha"
+sync_repo_folder "https://github.com/nikkinikki-org/OpenWrt-nikki.git" "main" "mihomo-meta" "mihomo-meta"
 sync_repo_folder "https://github.com/vernesong/OpenClash.git" "master" "luci-app-openclash" "luci-app-openclash"
 sync_repo_folder "https://github.com/wixxm/luci-theme-argon.git" "main" "luci-app-argon-config" "luci-app-argon-config"
 sync_repo_folder "https://github.com/destan19/OpenAppFilter.git" "master" "luci-app-oaf" "luci-app-oaf"
