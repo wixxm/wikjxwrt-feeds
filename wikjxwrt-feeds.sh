@@ -52,7 +52,7 @@ sync_repo_folder() {
 # 同步指定文件夹
 sync_repo_folder "https://github.com/sbwml/luci-app-mosdns.git" "v5" "mosdns" "mosdns"
 sync_repo_folder "https://github.com/sbwml/luci-app-mosdns.git" "v5" "luci-app-mosdns" "luci-app-mosdns"
-sync_repo_folder "https://github.com/sbwml/luci-app-mosdns.git" "v5" "v2dat" "v2dat"
+sync_repo_folder "https://github.com/sbwml/luci-app-mosdns.git" "v5" "geo2txt" "geo2txt"
 sync_repo_folder "https://github.com/nikkinikki-org/OpenWrt-nikki.git" "main" "nikki" "nikki"
 sync_repo_folder "https://github.com/nikkinikki-org/OpenWrt-nikki.git" "main" "luci-app-nikki" "luci-app-nikki"
 sync_repo_folder "https://github.com/nikkinikki-org/OpenWrt-nikki.git" "main" "mihomo-alpha" "mihomo-alpha"
