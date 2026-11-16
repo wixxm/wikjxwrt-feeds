@@ -37,6 +37,10 @@ jobs:
           git checkout main
           git pull origin main  # 确保获取最新变更
 
+      - name: Remove deprecated packages
+        run: |
+          rm -rf luci-app-oaf oaf open-app-filter pdnsd-alt luci-app-mwan3helper v2dat
+
       - name: Copy GitHub Workspace
         run: |
           TARGET_DIR="/opt/github/wikjxwrt-packages"
