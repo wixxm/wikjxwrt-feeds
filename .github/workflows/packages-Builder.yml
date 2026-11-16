@@ -10,7 +10,7 @@ on:
       - .github/**  
       
 env:
-  REPO_URL: https://github.com/wixxm/OpenWrt-24.10
+  REPO_URL: https://github.com/wixxm/OpenWrt-25.12
   REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
@@ -103,8 +103,8 @@ jobs:
           echo "文件移动失败，目标目录为空！" >&2
           exit 1
         fi
-        curl -sO https://raw.githubusercontent.com/${{ github.repository }}/config/generate-index-24.10.sh
-        bash generate-index-24.10.sh /tmp/openwrt_lite/${{ matrix.arch }}
+        curl -sO https://raw.githubusercontent.com/${{ github.repository }}/config/generate-index-25.12.sh
+        bash generate-index-25.12.sh /tmp/openwrt_lite/${{ matrix.arch }}
         tar -cJvf /tmp/openwrt_lite/WikjxWrt-packages-${{ matrix.arch }}.tar.xz -C /tmp/openwrt_lite ${{ matrix.arch }}
         if [ -f "/tmp/openwrt_lite/WikjxWrt-packages-${{ matrix.arch }}.tar.xz" ]; then
           echo "tarball 文件生成成功"
@@ -152,8 +152,5 @@ jobs:
           git config --global user.email 'actions@github.com'
           timestamp=$(date +"%Y-%m-%d %H:%M:%S")
           git add WikjxWrt-packages/*
-          git commit -sm "🏅 UP packages-24.10 - $timestamp"
+          git commit -sm "🏅 UP packages-25.12 - $timestamp"
           git push --force
-
-
-        
